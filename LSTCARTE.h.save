@@ -1,0 +1,19 @@
+#ifndef LSTCARTE_H
+#define LSTCARTE_H
+
+#include "ELTPRIM.h"
+#define MAX_NODES1 25
+// Structure pour les nœuds du carte avec poids=les gouvernorats
+typedef struct structNode1 {
+ ELEMENT info; // Valeur du nœud:les données de chaque gouvernorat
+ float weight; // Poids de l'arête=distance
+ struct structNode1* next; // Pointeur vers le prochain nœud dans la liste de voisins
+} structNode1, *Node1;
+// Définition de la structure de carte utilisant la liste d'adjacence
+typedef struct {
+int V; // Nombre de nœuds dans le graphe
+FILE* 
+Node1 adjList[MAX_NODES1]; // Tableau de nœuds pour la liste d'adjacence
+} strucCarte, *Carte;
+//not sue if je dois déclarer une structure AdjList:liste chainé
+#endif

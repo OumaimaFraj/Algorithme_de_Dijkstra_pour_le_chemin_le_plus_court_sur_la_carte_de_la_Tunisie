@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projet asd2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Projet asd2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Projet asd2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CARTEPRIM.h" />
+		<Unit filename="ELTCHR.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ELTCHR.h" />
+		<Unit filename="ELTCHR1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ELTCHR1.h" />
+		<Unit filename="ELTPRIM.h" />
+		<Unit filename="ELTPRIM1.h" />
+		<Unit filename="ELTSDD.h" />
+		<Unit filename="ELTSDD1.h" />
+		<Unit filename="GRPPRIM.h" />
+		<Unit filename="LSTCARTE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LSTCARTE.h" />
+		<Unit filename="LSTGRP.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="LSTGRP.h" />
+		<Unit filename="LSTSDD.h" />
+		<Unit filename="LSTSDD1.h" />
+		<Unit filename="data.txt" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vertices.txt" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

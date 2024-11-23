@@ -1,0 +1,17 @@
+#ifndef LSTGRP_H
+#define LSTGRP_H
+#include "ELTPRIM1.h"
+
+#define MAX_NODES 50
+// Structure pour les nœuds du graphe avec poids
+typedef struct structNode {
+ ELEMENT1 info; // Valeur du nœud
+ int weight; // Poids de l'arête
+ struct structNode* next; // Pointeur vers le prochain nœud dans la liste de voisins
+} structNode, *Node;
+// Définition de la structure de graphe utilisant la liste d'adjacence
+typedef struct {
+int V;// Nombre de nœuds dans le graphe
+Node adjList[MAX_NODES]; // Tableau de nœuds pour la liste d'adjacence:chaque case hya noeud head
+} strucGraph, *Graph;
+#endif
